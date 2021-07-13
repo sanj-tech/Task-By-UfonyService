@@ -1,30 +1,32 @@
 package com.jsstech.recyclerdemo;
 
 public class UserModel {
-    private String dates;
-    private String exp;
+    private String url;
+    private String explanation;
 
-    public UserModel(String dates,String exp) {
-        this.dates = dates;
-        this.exp = exp;
+
+    public UserModel(String url,String explanation) {
+        this.url = url;
+        this.explanation=explanation;
     }
 
     public UserModel() {
     }
 
-    public String getDates() {
-        return dates;
+    public String getUrl() {
+        return url;
     }
 
-    public void setDates(String dates) {
-        this.dates = dates;
+    public void setUrl(String url) {
+        this.url = url;
     }
 
-    public String getExp() {
-        return exp;
+    public String getDescription() {
+        return explanation;
     }
 
-    public void setExp(String exp) {
-        this.exp = exp;
+    public void setDescription(String explanation) {
+        this.explanation = explanation;
     }
 }
+
